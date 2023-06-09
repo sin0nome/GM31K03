@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ec7087f4-bcad-4eab-bd25-9141f568bdf0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon2D.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="fpscontrol.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2D.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
